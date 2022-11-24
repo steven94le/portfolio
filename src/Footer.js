@@ -8,20 +8,20 @@ const Footer = () => {
         <p>Developed by Steven Le 👨‍💻 2022 </p>
       </LeftSide>
       <RightSide>
-        <a href="mailto:steven94le@gmail.com">EMAIL</a>
+        <a href="mailto:steven94le@gmail.com">Email</a>
         <a
           href="https://github.com/steven94le"
           target="_blank"
           rel="noreferrer"
         >
-          GITHUB
+          GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/steven94le/"
           target="_blank"
           rel="noreferrer"
         >
-          LINKEDIN
+          LinkedIn
         </a>
       </RightSide>
     </Container>
@@ -32,6 +32,7 @@ const Container = styled.div`
   display: flex;
   width: 90vw;
   justify-content: space-between;
+  padding: 2rem 0;
 
   a {
     text-decoration: none;

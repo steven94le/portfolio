@@ -4,6 +4,7 @@ import GlobalStyles from "./GlobalStyles";
 import Experience from "./Experience";
 import Footer from "./Footer";
 import FeaturedProjects from "./FeaturedProjects";
+import OtherProjects from "./OtherProjects";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <LandingPage />
       <Experience />
       <FeaturedProjects />
+      <OtherProjects />
       <Footer />
     </Container>
   );
