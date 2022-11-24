@@ -3,6 +3,7 @@ import styled from "styled-components";
 import GlobalStyles from "./GlobalStyles";
 import Experience from "./Experience";
 import Footer from "./Footer";
+import FeaturedProjects from "./FeaturedProjects";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <GlobalStyles />
       <LandingPage />
       <Experience />
+      <FeaturedProjects />
       <Footer />
     </Container>
   );
