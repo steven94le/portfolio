@@ -39,7 +39,7 @@ export default createGlobalStyle`
       content: none;
   }
 
-  h1,
+h1,
 h2,
 h3,
 label,
@@ -47,7 +47,6 @@ button {
   font-family: var(--font-heading);
 }
 
-p,
 a,
 li,
 blockquote,
@@ -55,6 +54,8 @@ input {
   font-family: var(--font-body);
 }
 
-
+p {
+  margin: 0;
+}
 
 `;
