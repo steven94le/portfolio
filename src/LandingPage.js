@@ -1,5 +1,5 @@
 import profileImage from "./asset/profileImage.jpeg";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 import React from "react";
 
@@ -8,11 +8,10 @@ const LandingPage = () => {
     <Container>
       <Left>
         <h1>Hello! 👋</h1>
-        <h1>I'm Steven, a junior full-stack developer. 👨‍💻 </h1>
+        <h1>I'm Steven, a full-stack developer. 👨‍💻 </h1>
         <h3>
           Constantly discovering & learning, and thinking about how I can create
-          meaningful impact at global scale. Open to new opportunities and
-          interesting projects. 🚀
+          meaningful impact at global scale. 🚀
         </h3>
         <h3>
           Get in touch &nbsp;👉 &nbsp;
@@ -32,13 +31,19 @@ const LandingPage = () => {
   );
 };
 
+const fadeInAnimation = keyframes`
+0% {opacity: 0}
+100% {opacity: 1}
+`;
+
 const Container = styled.div`
   height: 100vh;
   width: 65vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 5rem;
+  animation: ${fadeInAnimation} 1.5s;
 `;
 
 const Left = styled.div``;
