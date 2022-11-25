@@ -145,6 +145,7 @@ const Project = styled.div`
   padding: 0.1rem 1rem;
   font-size: 16px;
   margin: 1rem 0;
+  line-height: 1.5;
 
   > p:first-child {
     font-weight: bold;
@@ -155,6 +156,7 @@ const Project = styled.div`
     font-size: 12px;
     text-transform: uppercase;
     vertical-align: bottom;
+    margin-top: 5px;
   }
 `;
 

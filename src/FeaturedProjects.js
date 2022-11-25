@@ -151,6 +151,7 @@ const Project = styled.div`
   transform: translateY(100px);
   opacity: 0;
   transition: 1s;
+  line-height: 1.4;
 
   &.active {
     transform: translateY(0);
@@ -161,6 +162,10 @@ const Project = styled.div`
 const LeftSide = styled.div`
   width: 60%;
   margin-right: 5rem;
+
+  h3 {
+    display: inline;
+  }
 `;
 
 const RightSide = styled.div`

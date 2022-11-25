@@ -8,10 +8,12 @@ const LandingPage = () => {
     <Container>
       <Left>
         <h1>Hello! 👋</h1>
-        <h1>I'm Steven, a full-stack developer. 👨‍💻 </h1>
+        <h1>
+          I'm <SpanName>Steven</SpanName>, a full-stack developer 👨‍💻{" "}
+        </h1>
         <h3>
           Constantly discovering & learning, and thinking about how I can create
-          meaningful impact at global scale. 🚀
+          meaningful impact at global scale 🚀
         </h3>
         <h3>
           Get in touch &nbsp;👉 &nbsp;
@@ -38,7 +40,7 @@ const fadeInAnimation = keyframes`
 
 const Container = styled.div`
   height: 100vh;
-  width: 65vw;
+  width: 70vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +49,11 @@ const Container = styled.div`
 `;
 
 const Left = styled.div``;
+
+const SpanName = styled.span`
+  border-bottom: 5px solid black;
+  padding-bottom: 2px;
+`;
 
 const Right = styled.div``;
 
